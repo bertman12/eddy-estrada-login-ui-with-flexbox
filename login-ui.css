@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:lightgrey;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    height: 200px;
+    justify-content: space-around;
+    background-color: lightgreen;
+    
+}
+
+.input-field {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+}
+
+.input-field:focus {
+    outline: 0em;
+    background-color: white;
+}
+/*
+#sign-in-label {
+    font-family: monospace;
+}*/
+/*
+#sign-in-form {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+*/
