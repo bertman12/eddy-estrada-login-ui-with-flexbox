@@ -1,21 +1,37 @@
+body {
+    margin: 0;
+    
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:lightgrey;
+    background-color:#654F6F;
+    background-image: url("https://media.nationalgeographic.org/assets/photos/119/351/59ca49d4-f7e3-4344-bb90-1597ac521977.jpg");
+    margin: 0;
+
 }
 #wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+
     background-color: white;
+    
+
     padding: 15px;
+    margin: 15px;
     border-radius: 25px;
     height: 200px;
-    justify-content: space-around;
-    background-color: lightgreen;
-    
+    min-height: 100px;
+    height: 300px;
+
+    min-width: 250px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .input-field {
@@ -27,12 +43,25 @@
 
 .input-field:focus {
     outline: 0em;
-    background-color: white;
+    
 }
-/*
+
+#sign-in-button {
+    border-radius: 10px;
+    background-color: #508a3f;
+    color: white;
+    width: 100px;
+    height: 25px;
+    outline: none !important;
+    border: none;
+    font-family: Helvetica, sans-serif;
+}
+
 #sign-in-label {
-    font-family: monospace;
-}*/
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
 /*
 #sign-in-form {
     display: flex;
